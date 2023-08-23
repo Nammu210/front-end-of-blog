@@ -1,0 +1,21 @@
+.foot-container{
+  display: flex;
+  justify-content: space-around;
+  background-color:whitesmoke;
+  color: rgb(14, 13, 13);
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  .foot-container {
+    background-color: lightblue;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+}
